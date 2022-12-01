@@ -12,8 +12,8 @@ from flask import render_template
 # In[7]:
 
 
-app = flask.Flask(__name__, template_folder='templates')
-@app.route('/', methods=['POST', 'GET'])
+app = flask.Flask(__name__, template_folder = 'templates')
+@app.route('/', methods = ['POST', 'GET'])
 def index():
     if flask.request.method == 'GET':
         return render_template('index.html')
@@ -35,7 +35,7 @@ def index():
 # In[8]:
 
 
-if __name__ == '__index__':
+if __name__ == '__main__':
     app.run()
 
 
