@@ -1,7 +1,4 @@
-flask
-pickle-mixin
-scikit-learn
+Flask
 numpy
-pandas
-gunicorn
-tensorflow
+scikit-learn==1.0.2
+Gunicorn
