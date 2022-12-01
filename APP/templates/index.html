@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" 
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<h3 class="text-muted"><span style="color:#ffffff;"><span style="font-size: 16px;"><span style="font-family: Times New Roman,Times,serif;"><em>Прогнозирование размеров сварного шва</em></span></span></span></h3>
+<table align="center" bgcolor="#00005c" border="3" cellpadding="5" cellspacing="5" dir="ltr" width="500px">
+	<tbody>
+		<tr>
+			<th align="center"><span style="font-family: Times New Roman,Times,serif;"><span style="color: #ffffff;"><span style="font-size: 25px;">Прогнозирование размеров сварного шва<br />
+			при электронно-лучевой сварке тонкостенных конструкций аэрокосмического назначения</span></span></span></th>
+		</tr>
+		<tr>
+			<th><span style="font-size: 22px;"><span style="font-family: Times New Roman,Times,serif;"><span style="color: #ffffff;">Заполните ячейки и нажмите &quot;Готово&quot;</span></span></span></th>
+		</tr>
+	</tbody>
+</table>
+</head>
+ <body><table align="center" bgcolor="#9933ff" border="3" cellpadding="5" cellspacing="5" dir="ltr" width="500px">
+    <form action="" method="post">
+<table align="center" bgcolor="darkblue" border="3" bordercolor="#00005c" cellpadding="5" cellspacing="5" width="500px">
+	<tbody>
+		<tr>
+			<td><span style="font-size: 16px;"><span style="font-family: Times New Roman,Times,serif;"><span style="color:#ffffff;"><label for="IW">Величина сварочного тока (IW)</label></span></span></span></td>
+			<td><span style="font-size: 16px;"><span style="font-family: Times New Roman,Times,serif;"><input type="float" name="IW" placeholder="Заполните значение величины сварочного тока (IW)" type="float" /></span></span></td>
+		</tr>
+			<tr>
+			<td><span style="font-size: 16px;"><span style="font-family: Times New Roman,Times,serif;"><span style="color:#ffffff;"><label for="IF">Ток фокусировки электронного пучка (IF)</label> </span></span></span></td>
+			<td><span style="font-size: 16px;"><span style="font-family: Times New Roman,Times,serif;"><input name="IF" placeholder="Заполните значение тока фокусировки электронного пучка (IF)" type="float" /></span></span></td>
+		</tr>
+		<tr>
+			<td><span style="font-size: 16px;"><span style="font-family: Times New Roman,Times,serif;"><span style="color:#ffffff;"><label for="VW">Скорость сварки (VW)</label></span></span></span></td>
+			<td><span style="font-size: 16px;"><span style="font-family: Times New Roman,Times,serif;"><input name="VW" placeholder="Заполните значение скорости сварки (VW)" type="float" /></span></span></td>
+		</tr>
+		<tr>
+			<td><span style="font-size: 16px;"><span style="font-family: Times New Roman,Times,serif;"><span style="color:#ffffff;"><label for="FP">Расстояние от поверхности до электронно-оптической системы (FP)</label></span></span></span></td>
+			<td><span style="font-size: 16px;"><span style="font-family: Times New Roman,Times,serif;"><input name="FP" placeholder="Заполните значение расстояния от поверхности до электронно-оптической системы (FP)" type="float" /></span></span></td>
+		</tr>
+	</tbody>
+</table>
+
+    </form>
+<table align="center" bgcolor="#00005c" border="3" cellpadding="5" cellspacing="5" width="500px">
+	<tbody>
+		<tr>
+			<td style="text-align: center;"><span style="font-size: 14px;"><span style="font-family: Times New Roman,Times,serif;"><span style="font-size: 16px;"><span style="font-family: Times New Roman,Times,serif;"><p>
+            <input type="submit" value="Готово">
+            </p></span></span></span></span></td>
+		</tr>
+	</tbody>
+</table>
+<table align="center" bgcolor="#00005c" border="3" cellpadding="5" cellspacing="5" width="500px">
+	<tbody>
+		<tr>
+			<th align="center"><span style="font-family: Times New Roman,Times,serif;"><span style="color: #ffffff;"><span style="font-size: 18px;">Результат прогноза:</span></span></span></th>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" bgcolor="darkblue" border="3" cellpadding="5" cellspacing="5" width="500px">
+	<tbody>
+		<tr>
+			<th align="center"><span style="font-family: Times New Roman,Times,serif;"><span style="color: #ffffff;">{% if message %} </span></span><p><span style="font-family: Times New Roman,Times,serif;"><span style="color: #ffffff;">{{ message }}</span></span></p>
+			<span style="font-family: Times New Roman,Times,serif;"> <span style="color: #ffffff;">{% endif %} </span></span>
+</th>
+		</tr>
+	</tbody>
+</table>
+
+<div>
+<p><span style="color:#ffffff;"><span style="font-family: Times New Roman,Times,serif;"><span class="footer"><em>Приложение разработала:</em></span></span> <span style="font-family: Times New Roman,Times,serif;"><span class="footer"><em><strong>Оксана Евдокимова</strong> -&nbsp; слушательница курса &laquo;Data Science&raquo; </em></span></span> <span style="font-family: Times New Roman,Times,serif;"><span class="footer"><em>Образовательного центра Московского государственного технического университета им. Н.Э. Баумана &copy;, </em></span></span> <span style="font-family: Times New Roman,Times,serif;"><span class="footer"><em>2022 г.</em></span></span></span></p>
+</div>
+<style type="text/css">body {
+    background-image: url("https://a.d-cd.net/GSAAAgHF8-A-1920.jpg"); background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #00005c; 
+   }
+</style>
